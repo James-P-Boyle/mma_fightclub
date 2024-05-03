@@ -18,4 +18,8 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+Route::get('/contact', function() {
+    return view('pages.contact');
+})->name('contact');
+
 Route::post('send-mail', [EmailController::class, 'sendEmail'])->name('send-mail');
