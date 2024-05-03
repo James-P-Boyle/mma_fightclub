@@ -14,6 +14,7 @@
     <div class="w-20 h-2 bg-red-700 my-4 divider"></div>
     <p id="dynamicText" class="text-xl mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maiores obcaecati, expedita ab cumque repellendus nesciunt laboriosam mollitia maxime.</p>
   </div>
+ 
 </header>
 
 <div class="w-full py-16 md:py-32 px-4 md:px-8 gap-16 md:gap-8 grid md:grid-cols-3">

@@ -9,12 +9,16 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     </head>
-    <body class="bg-gray-100">
+    <body class="bg-black bg-opacity-90 relative">
   
-    
-      {{-- @include('partials.navigation') --}}
+      <button id="openNav" class="text-white absolute top-4 right-4 z-[100]">O</button>
 
-      @yield('content')
+      @include('partials.navigation')
+
+      <main class="bg-gray-100">
+        @yield('content')
+      </main>
+ 
 
       @include('partials.footer')
 
