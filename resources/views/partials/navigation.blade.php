@@ -17,7 +17,7 @@
     <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">
       JIU-JITSU
     </a>
-    <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">
+    <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
       Contact
     </a>
   </div>

@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
-Route::get('/contact', function() {
+Route::get('/kontakt', function() {
     return view('pages.contact');
 })->name('contact');
 
@@ -26,15 +26,15 @@ Route::get('/mma', function() {
     return view('pages.mma');
 })->name('mma');
 
-Route::get('/jiu-jitsu', function() {
+Route::get('/brazilian-jiu-jitsu', function() {
     return view('pages.jitsu');
 })->name('jitsu');
 
-Route::get('/about', function() {
+Route::get('/beispiel-seite', function() {
     return view('pages.about');
 })->name('about');
 
-Route::get('/time-table', function() {
+Route::get('/oeffnungszeiten', function() {
     return view('pages.time-table');
 })->name('time');
 
