@@ -22,4 +22,20 @@ Route::get('/contact', function() {
     return view('pages.contact');
 })->name('contact');
 
+Route::get('/mma', function() {
+    return view('pages.mma');
+})->name('mma');
+
+Route::get('/jiu-jitsu', function() {
+    return view('pages.jitsu');
+})->name('jitsu');
+
+Route::get('/about', function() {
+    return view('pages.about');
+})->name('about');
+
+Route::get('/time-table', function() {
+    return view('pages.time-table');
+})->name('time');
+
 Route::post('send-mail', [EmailController::class, 'sendEmail'])->name('send-mail');

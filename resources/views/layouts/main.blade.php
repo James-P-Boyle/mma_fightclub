@@ -4,22 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>@yield('title', 'MMA FIGHTCLUB FULDA')</title>
+        <meta name="description" content="@yield('meta-description', 'Join our premier MMA gym in Fulda, Germany. We offer top-notch training in Brazilian Jiu-Jitsu, MMA, and grappling for all skill levels.')">
+        <meta name="keywords" content="@yield('meta-keywords', 'Brazilian Jiu-Jitsu, BJJ, MMA, martial arts, grappling, self-defense, combat sports, fighting')">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     </head>
-    <body class="bg-black bg-opacity-90 relative">
+    <body class="relative">
   
       <button id="openNav" class="text-white absolute top-4 right-4 z-[100]">O</button>
 
       @include('partials.navigation')
 
-      <main class="bg-gray-100">
+      <main>
         @yield('content')
       </main>
  
-
       @include('partials.footer')
 
     </body>

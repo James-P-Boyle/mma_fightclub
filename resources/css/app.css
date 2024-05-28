@@ -9,6 +9,10 @@ h1, p {
   animation-delay: 0.7s; 
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", "Verdana", "Tahoma", "Trebuchet MS", sans-serif;
+}
+
 .nav-open {
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
@@ -30,7 +34,7 @@ h1, p {
   }
 }
 
-button,  .divider {
+.divider {
   opacity: 0;
   transform: translateX(-20px);
   animation: slideIn 1s forwards;
@@ -92,6 +96,6 @@ button,  .divider {
   }
 }
 
-#dynamicText {
+.dynamicText {
   animation: slideInText 1s forwards;
 }

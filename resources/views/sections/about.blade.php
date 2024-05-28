@@ -1,36 +1,29 @@
-<section class="bg-black bg-opacity-90 text-white">
+<section class="text-white bg-black bg-opacity-90">
         
   <div class="grid md:grid-cols-[2fr_1fr]">
 
-      <div class="w-full h-[600px] md:order-2 bg-center bg-cover" style="background-image: url('https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/088.jpg');">
+    <div class="w-full h-[600px] md:order-2 bg-center bg-cover" style="background-image: url('./images/about_1.jpeg');">
           <!-- Background image is set here -->
       </div>
       
-      <div class="px-4 md:px-8 py-16 flex flex-col items-center justify-center gap-6">
+      <div class="flex flex-col items-center justify-center gap-6 px-4 py-16 md:px-8">
           <div class="w-full">
-              <h4 class="text-2xl font-bold">
-                  About us
-                  </h4>
-                  <div class="w-20 h-2 bg-red-700 my-4 divider"></div>
+              <h4 class="text-2xl font-bold">About</h4>
+            <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
           </div>
       
           <p class="text-xl">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Earum maxime voluptas ipsam aliquam itaque cupiditate
-              provident architecto expedita harum culpa odit, inventore rem
-              molestias laborum repudiandae corporis pariatur quo eius iste!
-      
+            My name is Markus Jamaal Leis. I was born on April 18, 1977, have been practicing martial arts for many years and have experience in various martial arts (Wing Tsung , Tai Chi, Brazilian Jiu Jitsu, kickboxing, K1, Muay Thai and MMA).
           </p>
           <p class="text-xl">
-              Commodi ut nisi assumenda alias maxime necessitatibus ad rem
-              repellat explicabo, reiciendis illum suscipit iusto? Provident
-              dignissimos similique, reiciendis inventore accusantium unde
-              mollitia, deleniti quae atque error id perspiciatis illum.
-              Laboriosam aperiam ab illo dignissimos obcaecati corporis
+            I would be happy if I have aroused your interest and could welcome you to the martial arts school.
           </p>
-
-          <button class="hover:scale-105 bg-red-500 text-white text-2xl font-medium px-4 py-2 rounded shadow mr-auto">Contact</button>
-      
+          
+          <div class="space-x-2">
+            <a href="{{route('about')}}" class="px-4 py-2 text-2xl font-medium text-ci-red bg-white rounded shadow hover:scale-105">About Us</a>
+            <a href="{{route('contact')}}" class="px-4 py-2 text-2xl font-medium text-white bg-ci-red rounded shadow hover:scale-105">Contact</a>
+          </div>
+       
       </div>
   
   </div>

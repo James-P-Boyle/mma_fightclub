@@ -2,7 +2,11 @@
 export default {
   content: ["./resources/views/**/*.blade.php"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'ci-red': '#F81A00',
+      },
+    },
   },
   plugins: [],
 }

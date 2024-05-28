@@ -11,7 +11,7 @@
   <div class="absolute inset-0 bg-black bg-opacity-70"></div>
   <div class="w-full relative max-w-[600px] text-white px-4 md:px-8">
     <h1 class="text-4xl lg:text-6xl font-bold">Contact</h1>
-    <div class="w-20 h-2 bg-red-700 my-4 divider"></div>
+    <div class="w-20 h-2 bg-ci-red my-4 divider"></div>
     <p id="dynamicText" class="text-xl mb-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus maiores obcaecati, expedita ab cumque repellendus nesciunt laboriosam mollitia maxime.</p>
   </div>
  
@@ -97,7 +97,7 @@
             <label class="block text-white/70 text-sm font-bold mb-2">Tires Needed:</label>          
             <div class="mb-2">
                 <input disabled type="radio" name="tires_needed" value="0-100" id="0-100">
-                <label for="0-100" class="line-through text-red-500">0-100</label>
+                <label for="0-100" class="line-through text-ci-red">0-100</label>
             </div>
             <div class="mb-2">
                 <input type="radio" name="tires_needed" value="100-500" id="100-500">
@@ -116,7 +116,7 @@
             <label class="text-white/70" for="message" class="block text-white/70 text-sm font-bold mb-2">Message (Optional):</label>
             <textarea name="message" id="message" rows="3" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"></textarea>
         </div>
-        <button type="submit" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+        <button type="submit" class="bg-ci-red hover:bg-ci-red text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
     </form>
   </div>
 
