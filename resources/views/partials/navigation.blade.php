@@ -21,7 +21,7 @@
       Contact
     </a>
   </div>
-  <span class="block text-white">© 2024 - MMA FIGHTCLUB FULDA</span>
+  <span class="block text-white">© 2024 - MMA FIGHTCLUBBad Hersfeld</span>
 
 
 </nav>

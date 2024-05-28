@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', 'MMA FIGHTCLUB FULDA')</title>
-        <meta name="description" content="@yield('meta-description', 'Join our premier MMA gym in Fulda, Germany. We offer top-notch training in Brazilian Jiu-Jitsu, MMA, and grappling for all skill levels.')">
+        <title>@yield('title', 'MMA FIGHTCLUBBad Hersfeld')</title>
+        <meta name="description" content="@yield('meta-description', 'Join our premier MMA gym inBad Hersfeld, Germany. We offer top-notch training in Brazilian Jiu-Jitsu, MMA, and grappling for all skill levels.')">
         <meta name="keywords" content="@yield('meta-keywords', 'Brazilian Jiu-Jitsu, BJJ, MMA, martial arts, grappling, self-defense, combat sports, fighting')">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])

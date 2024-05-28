@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Mixed Martial Arts - MMA Fight Club Fulda')
+@section('title', 'Mixed Martial Arts - MMA Fight ClubBad Hersfeld')
 @section('meta-description', 'Learn about Mixed Martial Arts (MMA) at our MMA Fight Club. Explore our classes, benefits, and detailed curriculum.')
 
 @section('content')
@@ -39,27 +39,38 @@
 <section class="p-4 py-8 text-white bg-black bg-opacity-90">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
-    <div class="space-y-1">
-      <h3 class="mb-4 text-2xl font-bold lg:text-3xl">Benefits of Training in MMA</h3>
-      <p class="md:text-xl">Training in MMA provides a comprehensive workout that enhances overall fitness. It improves strength, endurance, agility, and coordination.</p>
-      <p class="md:text-xl">Additionally, MMA training boosts mental toughness, resilience, and strategic thinking.</p>
-      <p class="md:text-xl">Whether you're training for competition or personal development, MMA offers a challenging and rewarding experience.</p>
+    <div class="flex flex-col gap-4">
+      <div class="space-y-1">
+        <h3 class="mb-4 text-2xl font-bold lg:text-3xl">Benefits of Training in MMA</h3>
+        <p class="md:text-xl">Training in MMA provides a comprehensive workout that enhances overall fitness. It improves strength, endurance, agility, and coordination.</p>
+        <p class="md:text-xl">Additionally, MMA training boosts mental toughness, resilience, and strategic thinking.</p>
+        <p class="md:text-xl">Whether you're training for competition or personal development, MMA offers a challenging and rewarding experience.</p>
+      </div>
+      <a 
+        href="{{route('time')}}" 
+        title="View our MMA class timetable"
+        class="text-xl font-bold text-ci-red hover:text-ci-red"
+      >
+        View Timetable
+      </a>
     </div>
 
-    <div class="space-y-1">
-      <h4 class="mb-4 text-2xl font-bold lg:text-3xl">Classes and Curriculum</h4>
-      <p class="md:text-xl">Our MMA program includes a diverse range of classes designed to develop all aspects of mixed martial arts.</p>
-      <p class="md:text-xl">From striking techniques and grappling skills to conditioning and sparring sessions, our curriculum is structured to ensure progressive learning and skill development.</p>
-      <p class="md:text-xl">Join our MMA classes to become a well-rounded martial artist.</p>
-
+    <div class="flex flex-col gap-4">
+      <div class="space-y-1">
+        <h4 class="mb-4 text-2xl font-bold lg:text-3xl">Classes and Curriculum</h4>
+        <p class="md:text-xl">Our MMA program includes a diverse range of classes designed to develop all aspects of mixed martial arts.</p>
+        <p class="md:text-xl">From striking techniques and grappling skills to conditioning and sparring sessions, our curriculum is structured to ensure progressive learning and skill development.</p>
+        <p class="md:text-xl">Join our MMA classes to become a well-rounded martial artist.</p>
+      </div>
+      <a 
+        href="{{route('contact')}}" 
+        title="Book your first mma class with us"
+        class="text-xl font-bold text-ci-red hover:text-ci-red"
+      >
+        Book your first class
+      </a>
     </div>
-    <a 
-      href="{{route('time')}}" 
-      title="View our MMA class timetable"
-      class="text-xl font-bold text-ci-red hover:text-ci-red"
-    >
-      View Timetable
-    </a>
+ 
   </div>
   
 

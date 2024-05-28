@@ -1,5 +1,8 @@
 @extends('layouts.main')
 
+@section('title', 'Contact Us - MMA Fight Club Bad Hersfeld')
+@section('meta-description', 'Contact Markus Leis and the MMA Fight Club team inBad Hersfeld. Get in touch via phone or email to schedule your first trial session. We\'re here to help you start your journey in mixed martial arts.')
+
 @section('content')
 
 <header class="relative min-h-[30vh] py-12 w-full flex flex-col-reverse items-center md:flex-row gap-8">
@@ -26,7 +29,7 @@
     <h2 class="mb-2 text-xl font-bold">Markus Leis</h2>
     <p><span class="font-semibold">Phone:</span> 0151/46417517</p>
     <p><span class="font-semibold">E-Mail:</span> info@mma-fightclub.de</p>
-    <p class="font-bold text-ci-red">MMA – FIGHTCLUB Bad Hersfeld<p>
+    <p class="font-bold text-ci-red">MMA – FIGHTCLUB BAD HERSFELD<p>
     <p>Max-Becker-Strasse 1a</p>
     <p>36251 Bad Hersfeld</p>
   </div>

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Brazilian Jiu-Jitsu - MMA Fight Club Fulda')
+@section('title', 'Brazilian Jiu-Jitsu - MMA Fight ClubBad Hersfeld')
 @section('meta-description', 'Learn about Brazilian Jiu-Jitsu (BJJ) at our MMA Fight Club. Explore our classes, benefits, and detailed curriculum.')
 
 @section('content')
@@ -38,26 +38,37 @@
 <section class="p-4 py-8 text-white bg-black bg-opacity-90">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
-    <div class="space-y-1">
-      <h3 class="mb-4 text-2xl font-bold lg:text-3xl">Benefits of Training in BJJ</h3>
-      <p class="text-lg md:text-xl">Training in Brazilian Jiu-Jitsu offers numerous physical and mental benefits. Physically, it improves strength, flexibility, and cardiovascular health.</p>
-      <p class="text-lg md:text-xl">Mentally, it enhances problem-solving skills, boosts confidence, and fosters discipline.</p>
-      <p class="text-lg md:text-xl">BJJ also promotes camaraderie and respect among practitioners, creating a supportive community.</p>
+    <div class="flex flex-col gap-4">
+      <div class="space-y-1">
+        <h3 class="mb-4 text-2xl font-bold lg:text-3xl">Benefits of Training in BJJ</h3>
+        <p class="text-lg md:text-xl">Training in Brazilian Jiu-Jitsu offers numerous physical and mental benefits. Physically, it improves strength, flexibility, and cardiovascular health.</p>
+        <p class="text-lg md:text-xl">Mentally, it enhances problem-solving skills, boosts confidence, and fosters discipline.</p>
+        <p class="text-lg md:text-xl">BJJ also promotes camaraderie and respect among practitioners, creating a supportive community.</p>
+      </div>
+      <a 
+        href="{{route('time')}}" 
+        title="View our Jiu-Jitsu class timetable"
+        class="text-xl font-bold text-ci-red hover:text-ci-red"
+      >
+        View Timetable
+      </a>
     </div>
 
-    <div class="space-y-1">
-      <h4 class="mb-4 text-2xl font-bold lg:text-3xl">Classes and Curriculum</h4>
-      <p class="text-lg md:text-xl">Our BJJ classes cater to all skill levels, from beginners to advanced practitioners. The curriculum includes fundamental techniques, advanced submissions, and positional strategies.</p>
-      <p class="text-lg md:text-xl">We also offer specialized classes such as no-gi training and competition preparation. Join us to start your journey in mastering the art of Brazilian Jiu-Jitsu.</p>
-     
+    <div class="flex flex-col gap-4">
+      <div class="space-y-1">
+        <h4 class="mb-4 text-2xl font-bold lg:text-3xl">Classes and Curriculum</h4>
+        <p class="text-lg md:text-xl">Our BJJ classes cater to all skill levels, from beginners to advanced practitioners. The curriculum includes fundamental techniques, advanced submissions, and positional strategies.</p>
+        <p class="text-lg md:text-xl">We also offer specialized classes such as no-gi training and competition preparation. Join us to start your journey in mastering the art of Brazilian Jiu-Jitsu.</p>
+      </div>
+      <a 
+        href="{{route('contact')}}" 
+        title="Book your first jiu jitsu class with us"
+        class="text-xl font-bold text-ci-red hover:text-ci-red"
+      >
+        Book your first class
+      </a>
     </div>
-    <a 
-      href="{{route('time')}}" 
-      title="View our Jiu-Jitsu class timetable"
-      class="text-xl font-bold text-ci-red hover:text-ci-red"
-    >
-      View Timetable
-    </a>
+ 
   </div>
   
 

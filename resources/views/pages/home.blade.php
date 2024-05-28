@@ -27,7 +27,8 @@
         <h3 class="text-2xl lg:text-4xl">Fight for it</h3>
         <div class="w-12 h-1 my-4 bg-ci-red divider"></div>
         {{-- {{-- <div class="w-16 h-2 my-4 bg-ci-red divider"></div> --}}
-        <p class="mb-2 text-lg md:text-xl">Step into the cage and embrace the warrior within. <a class="underline text-ci-red" title="Contact us and find out more about our gym" href="{{route('contact')}}">Join our MMA fight club</a> and defend your well-being</p>
+        <p class="text-lg md:text-xl">Step into the cage and embrace the warrior within.</p>
+        <p class="text-lg md:text-xl"><a class="underline text-ci-red" title="Contact us and find out more about our gym" href="{{route('contact')}}">Join our MMA fight club</a> and defend your well-being</p>
       </div>
       <div class="z-10 w-full bg-center bg-no-repeat bg-contain min-h-64 sm:h-80" style="background-image: url('./images/logo.jpeg')"></div>
     </header>
