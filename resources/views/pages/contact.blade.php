@@ -18,7 +18,7 @@
     <h2 class="mb-2 text-xl font-bold">Markus Leis</h2>
     <p><span class="font-semibold">Phone:</span> 0151/46417517</p>
     <p><span class="font-semibold">E-Mail:</span> info@mma-fightclub.de</p>
-    <p class="font-bold text-ci-red">MMA – FIGHTCLUB BAD HERSFELD<p>
+    <p class="font-bold text-ci-red">MMA - FIGHTCLUB BAD HERSFELD<p>
     <p>Max-Becker-Strasse 1a</p>
     <p>36251 Bad Hersfeld</p>
   </div>
@@ -27,7 +27,7 @@
 
     @if (session('success'))
       <div class="alert alert-success">
-        å{{ session('success') }}
+        {{ session('success') }}
       </div>
     @endif
 

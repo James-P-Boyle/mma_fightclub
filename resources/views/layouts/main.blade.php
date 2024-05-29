@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>@yield('title', 'MMA FIGHTCLUBBad Hersfeld')</title>
+        <title>@yield('title', 'MMA FIGHTCLUB Bad Hersfeld')</title>
         <meta name="description" content="@yield('meta-description', 'Join our premier MMA gym inBad Hersfeld, Germany. We offer top-notch training in Brazilian Jiu-Jitsu, MMA, and grappling for all skill levels.')">
         <meta name="keywords" content="@yield('meta-keywords', 'Brazilian Jiu-Jitsu, BJJ, MMA, martial arts, grappling, self-defense, combat sports, fighting')">
 
