@@ -9,7 +9,7 @@
         <meta name="keywords" content="@yield('meta-keywords', 'Brazilian Jiu-Jitsu, BJJ, MMA, martial arts, grappling, self-defense, combat sports, fighting')">
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        {{-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> --}}
     </head>
     <body class="relative">
   

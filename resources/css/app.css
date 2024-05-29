@@ -13,6 +13,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", "Arial", "Verdana", "Tahoma", "Trebuchet MS", sans-serif;
 }
 
+main {
+  background-image: url('../../public/images/cage.svg');
+  background-size: cover; /* Ensures the background image covers the entire header */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
 .nav-open {
   transform: translateX(0);
   transition: transform 0.3s ease-in-out;
@@ -52,21 +61,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.background-slider {
+/* .background-slider {
   position: absolute;
   width: 100%;
   height: 100%;
   overflow: hidden;
-}
+  opacity: 0.8;
+} */
 
-.background-slider img {
+/* .background-slider img {
   position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0;
+  opacity: 0.1;
   animation: slide 18s infinite;
-}
+} */
 
 .background-slider img:nth-child(1) {
   animation-delay: 0s;
