@@ -12,9 +12,9 @@
   <p class="mb-2 text-lg dynamicText md:text-xl"> We're excited to help you start your journey with us!</p>
 </x-hero-header>
 
-<section class="grid px-4 py-8 md:grid-cols-[1fr_2fr] md:max-w-[1200px] md:mx-auto md:px-8">
+<section class="grid px-2 py-16 md:grid-cols-[1fr_2fr] md:max-w-[1200px] md:mx-auto md:px-8">
 
-  <div class="p-4 bg-gray-100 rounded-lg">
+  <div class="p-4 rounded-t-lg bg-gray-100/70">
     <h2 class="mb-2 text-xl font-bold">Markus Leis</h2>
     <p><span class="font-semibold">Phone:</span> 0151/46417517</p>
     <p><span class="font-semibold">E-Mail:</span> info@mma-fightclub.de</p>
@@ -23,7 +23,7 @@
     <p>36251 Bad Hersfeld</p>
   </div>
 
-  <div class="w-full p-8 bg-gray-100 rounded-lg">
+  <div class="w-full p-8 rounded-b-lg bg-gray-100/70">
 
     @if (session('success'))
       <div class="alert alert-success">
@@ -58,7 +58,7 @@
 
 </section>
 
-<section class="md:max-w-[1200px] md:mx-auto px-4 md:px-8 py-8 ">
+<section class="md:max-w-[1200px] md:mx-auto px-2 md:px-8 pt-8 pb-16">
   <iframe class="rounded-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40293.90590249734!2d9.696078199999997!3d50.861365899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a3547ca559b4ab%3A0x282152a4353c55e8!2sMMA%20%E2%80%93%20FIGHTCLUB!5e0!3m2!1sde!2sde!4v1686809902732!5m2!1sde!2sde" width="100%" height="400px" allowfullscreen="allowfullscreen"></iframe>
 </section>
 
