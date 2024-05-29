@@ -5,23 +5,12 @@
 
 @section('content')
 
-<header class="relative min-h-[30vh] py-12 w-full flex flex-col-reverse items-center md:flex-row gap-8">
-
-  <div class="background-slider">   
-    <img id="image1" src="./images/hero_1.jpeg" alt="Hero Image" class="absolute inset-0 object-cover w-full h-full">
-  </div>
-  <div class="absolute inset-0 bg-black bg-opacity-90"></div>
-  
-  <div class="relative w-full px-4 text-white md:px-8">
-    <h1 class="text-4xl font-bold lg:text-6xl">CONTACT</h1>
-    <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
-    <p class="mb-2 text-lg dynamicText md:text-xl">Ready to take the first step? Drop us a message on WhatsApp or use the form below to schedule your first trial session.</p>
-    <p class="mb-2 text-lg dynamicText md:text-xl"> We're excited to help you start your journey with us!</p>
-  </div>
-
-  <div class="z-10 w-full bg-center bg-no-repeat bg-contain min-h-64 sm:h-80" style="background-image: url('./images/logo.jpeg')"></div>
- 
-</header>
+<x-hero-header>
+  <h1 class="text-4xl font-bold lg:text-6xl">CONTACT</h1>
+  <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
+  <p class="mb-2 text-lg dynamicText md:text-xl">Ready to take the first step? Drop us a message on WhatsApp or use the form below to schedule your first trial session.</p>
+  <p class="mb-2 text-lg dynamicText md:text-xl"> We're excited to help you start your journey with us!</p>
+</x-hero-header>
 
 <section class="grid px-4 py-8 md:grid-cols-[1fr_2fr] md:max-w-[1200px] md:mx-auto md:px-8">
 
@@ -67,6 +56,10 @@
     </form>
   </div>
 
+</section>
+
+<section class="md:max-w-[1200px] md:mx-auto px-4 md:px-8 py-8 ">
+  <iframe class="rounded-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d40293.90590249734!2d9.696078199999997!3d50.861365899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a3547ca559b4ab%3A0x282152a4353c55e8!2sMMA%20%E2%80%93%20FIGHTCLUB!5e0!3m2!1sde!2sde!4v1686809902732!5m2!1sde!2sde" width="100%" height="400px" allowfullscreen="allowfullscreen"></iframe>
 </section>
 
 @endsection
