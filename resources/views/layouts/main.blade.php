@@ -13,7 +13,11 @@
     </head>
     <body class="relative">
   
-      <button id="openNav" class="text-white absolute top-4 right-4 z-[100]">O</button>
+      <button id="openNav" class="octagon">
+        <svg class="text-white " data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+        </svg>
+      </button>
 
       @include('partials.navigation')
 

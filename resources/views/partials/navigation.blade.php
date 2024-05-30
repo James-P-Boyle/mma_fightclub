@@ -1,7 +1,7 @@
 <nav id="nav" class="nav-closed fixed p-4 right-0 w-[300px] top-0 bottom-0 bg-black bg-opacity-90 md:shadow-xl z-[100] flex flex-col gap-8">
 
   <div class="grid items-center w-10 h-10 text-ci-red">
-    <span id="closeNav" class="text-xl font-bold">X</span>
+    <span id="closeNav" class="text-xl font-bold hover:cursor-pointer">X</span>
   </div>
 
   <div class="justify-end flex-1 block gap-2 space-y-2">
