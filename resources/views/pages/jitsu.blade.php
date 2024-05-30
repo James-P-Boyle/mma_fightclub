@@ -24,7 +24,7 @@
 
 
 
-<section class="p-4 py-8 text-white bg-black bg-opacity-90">
+<section class="p-4 py-8 text-white bg-black bg-opacity-90 bg-cage">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
     <div class="flex flex-col gap-4">

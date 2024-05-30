@@ -4,11 +4,11 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold lg:text-6xl">About Me</h1>
-  {{-- <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
-  <p class="mb-2 dynamicText md:text-xl">Euer Team</p> --}}
+  <div class="w-20 h-2 my-4 bg-ci-red divider"></div> 
+  {{-- <p class="mb-2 dynamicText md:text-xl">Euer Team</p>  --}}
 </x-hero-header>
 
-<section class="text-white bg-black bg-opacity-90">
+<section class="text-white bg-black bg-opacity-90 bg-cage">
         
   <div class="grid md:grid-cols-[1fr_2fr] md:gap-6 max-w-[1600px] mx-auto">
     <div class="w-full h-[500px] md:h-[600px] bg-center bg-contain bg-no-repeat" style="background-image: url('./images/about_1.jpeg');">

@@ -1,6 +1,6 @@
 @props(['imagePaths'])
 
-<header class="relative min-h-[30vh] w-full">
+<header class="relative min-h-[30vh] w-full bg-cage">
   
     {{-- <div class="background-slider">   
         <img src="./images/hero_1.jpeg" alt="Hero Image" class="absolute inset-0 object-cover w-full h-full opacity-10">

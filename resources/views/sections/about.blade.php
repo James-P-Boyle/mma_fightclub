@@ -9,9 +9,9 @@
     <div class="flex flex-col items-center justify-center gap-6 px-4 py-16 md:px-8">
       <div class="w-full">
           <h4 class="text-2xl font-bold">About</h4>
-        <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
+          <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
       </div>
-  
+    
       <p class="text-xl">
         My name is Markus Jamaal Leis. I was born on April 18, 1977, have been practicing martial arts for many years and have experience in various martial arts (Wing Tsung , Tai Chi, Brazilian Jiu Jitsu, kickboxing, K1, Muay Thai and MMA).
       </p>
