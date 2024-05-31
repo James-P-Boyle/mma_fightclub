@@ -14,7 +14,7 @@
     <a href="{{ route('jitsu') }}" class="transition duration-100 text-lg md:text-xl {{ Route::is('jitsu') ? 'underline text-ci-red' : '' }}">
       JIU-JITSU
     </a>
-    <a href="{{ route('mma') }}" class="transition duration-100 text-lg md:text-xl {{ Route::is('mma') ? 'underline text-ci-red' : '' }}">
+    <a href="{{ route('mma') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 text-lg md:text-xl {{ Route::is('mma') ? 'underline text-ci-red' : '' }}">
       MMA
     </a>
   </div>

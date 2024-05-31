@@ -6,14 +6,14 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold lg:text-6xl">MIXED MARTIAL ARTS <span class="text-ci-red">(MMA)</span></h1>
-  <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
-  <p class="mb-2 dynamicText md:text-xl">Mixed Martial Arts <span class="text-ci-red">(MMA)</span> is a full-contact combat sport that allows the use of both striking and grappling techniques, both standing and on the ground.</p>
-  <p class="mb-2 dynamicText md:text-xl">It combines elements from various martial arts disciplines, including boxing, wrestling, Brazilian Jiu-Jitsu, Muay Thai, and more.</p>
-  <p class="mb-2 dynamicText md:text-xl">MMA is known for its dynamic and versatile approach to fighting.</p>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">MIXED MARTIAL ARTS <span class="text-ci-red">(MMA)</span></h1>
+  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <p class="text-xl dynamicText md:text-2xl">Mixed Martial Arts <span class="text-ci-red">(MMA)</span> is a full-contact combat sport that allows the use of both striking and grappling techniques, both standing and on the ground.</p>
+  <p class="text-xl dynamicText md:text-2xl">It combines elements from various martial arts disciplines, including boxing, wrestling, Brazilian Jiu-Jitsu, Muay Thai, and more.</p>
+  <p class="text-xl dynamicText md:text-2xl">MMA is known for its dynamic and versatile approach to fighting.</p>
 </x-hero-header>
 
-<section class="container grid gap-4 px-4 py-16 mx-auto sm:grid-cols-2">
+<section class="container grid gap-4 px-4 mx-auto sm:grid-cols-2">
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
@@ -24,7 +24,7 @@
 
 
 
-<section class="p-4 py-8 text-white bg-black bg-opacity-90 bg-cage">
+<section class="p-4 text-white bg-black bg-opacity-90 bg-cage">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
     <div class="flex flex-col gap-4">

@@ -1,57 +1,47 @@
-<section class="flex flex-col justify-center px-4 md:px-8 py-16 bg-black bg-opacity-90 text-white min-h-screen">
-
-  <div class="w-full">
+<section class="flex flex-col justify-center px-4 py-16 text-white bg-black md:px-8 bg-opacity-90 bg-cage">
+    <div class="w-full">
       <h4 class="text-2xl font-bold">
-          Frequently Asked Questions
+        Frequently Asked Questions
       </h4>
-      <div class="w-20 h-2 bg-ci-red my-4 divider"></div>
-  </div>
-
-  <div class="flex flex-col divide-y divide-gray-700">
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">How can I place an order?</summary>
-      <div class="px-4 pb-4">
-      <span>You can easily place an order on our website by browsing our product catalog, selecting the items you want, and adding them to your cart. Then, proceed to checkout, where you can provide your shipping and payment information to complete the order.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">What payment methods do you accept?</summary>
-      <div class="px-4 pb-4">
-      <span>We accept various payment methods, including credit cards, debit cards, net banking, and mobile wallet payments. You can choose the payment option that is most convenient for you during the checkout process.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">How long does shipping take?</summary>
-      <div class="px-4 pb-4">
-      <span>Shipping times may vary depending on your location and the shipping method chosen. Typically, orders are processed within 1-2 business days, and delivery can take 3-7 business days within India. You will receive a tracking notification once your order is shipped.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">Can I return a product if I'm not satisfied?</summary>
-      <div class="px-4 pb-4">
-      <span>Yes, we have a hassle-free return policy. If you are not satisfied with your purchase, you can initiate a return within 30 days of receiving the product. Please contact our customer support at <a href="" class="underline">example@gmail.com</a> for assistance.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">Do you offer international shipping?</summary>
-      <div class="px-4 pb-4">
-      <span>Currently, we only provide shipping services within India. However, we may consider expanding our shipping options to international locations in the future. Please stay updated with our website for any changes in shipping destinations.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">What is your customer support contact?</summary>
-      <div class="px-4 pb-4">
-      <span>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="" class="underline">example@gmail.com</a>.<span>
-      </div>
-  </details>
-  <details>
-      <summary class="py-2 outline-none cursor-pointer focus:underline">What are your terms and conditions?</summary>
-      <div class="px-4 pb-4">
-      <p>You can find our detailed terms and conditions by visiting our 
-          <a href="" class="underline">Terms of Service</a> 
-          page on our website. It includes information about our policies, user guidelines, and more.</p>
-      </div>
-  </details>
-  </div>
-
-</section>
+      <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
+    </div>
+  
+    <div class="flex flex-col divide-y divide-gray-700">
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">How can I join the MMA Fight Club?</summary>
+        <div class="px-4 pb-4">
+          <span>You can join our MMA Fight Club by visiting our gym in Bad Hersfeld or contacting us via phone or email. We offer a variety of membership options and trial sessions to help you get started.</span>
+        </div>
+      </details>
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">What types of classes do you offer?</summary>
+        <div class="px-4 pb-4">
+          <span>We offer a wide range of classes including Brazilian Jiu-Jitsu, Muay Thai, Kickboxing, MMA, and more. Our classes cater to all skill levels, from beginners to advanced practitioners.</span>
+        </div>
+      </details>
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">What are the benefits of joining your gym?</summary>
+        <div class="px-4 pb-4">
+          <span>Joining our gym provides numerous benefits including improved fitness, self-defense skills, increased confidence, and being part of a supportive community. Our experienced trainers will help you achieve your personal goals.</span>
+        </div>
+      </details>
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">What is your class schedule?</summary>
+        <div class="px-4 pb-4">
+          <span>Our class schedule varies throughout the week. Please check our <a href="{{route('time')}}" title="View our Jiu-Jitsu class timetable" class="text-ci-red hover:text-ci-red">timetable</a> on the website or contact us directly for the most up-to-date class times.</span>
+        </div>
+      </details>
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">Do you offer trial sessions?</summary>
+        <div class="px-4 pb-4">
+          <span>Yes, we offer trial sessions for new members. <a href="{{route('contact')}}" title="Contact us" class="text-ci-red hover:text-ci-red">Contact</a> us via phone or email to arrange your first trial session and experience our training firsthand.</span>
+        </div>
+      </details>
+      <details>
+        <summary class="py-2 outline-none cursor-pointer focus:underline">What should I bring to my first class?</summary>
+        <div class="px-4 pb-4">
+          <span>For your first class, wear comfortable workout clothes and bring a water bottle. For specific classes like Muay Thai, you may need a mouth guard, but we can provide more information when you <a href="{{route('contact')}}" title="Contact us" class="text-ci-red hover:text-ci-red"> Contact</a> us.</span>
+        </div>
+      </details>
+    </div>
+  </section>

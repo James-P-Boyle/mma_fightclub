@@ -18,7 +18,7 @@ export default defineConfig({
         }),
     ],
     server: {
-        https: true
+        https: false,
     },
     base: process.env.APP_URL || '/',
 });

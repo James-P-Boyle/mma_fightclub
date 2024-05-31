@@ -10,7 +10,7 @@
 
     <div class="flex flex-col-reverse items-center gap-8 py-12 md:flex-row max-w-[1600px] mx-auto">
 
-        <div class="relative w-full px-4 text-white md:px-8">
+        <div class="relative flex flex-col w-full gap-4 px-4 text-center text-white md:gap-6 md:text-left md:px-8">
             {{$slot}}
         </div>
 

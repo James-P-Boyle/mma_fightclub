@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, p {
+p {
   opacity: 0;
   transform: translateY(-20px);
   animation: popIn 1s forwards;

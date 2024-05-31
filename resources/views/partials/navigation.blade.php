@@ -11,7 +11,7 @@
     <a href="{{route('about')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('about') ? 'bg-ci-red' : '' }}">
       ABOUT
     </a>
-    <a href="{{route('mma')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('mma') ? 'bg-ci-red' : '' }}">
+    <a href="{{route('mma')}}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('mma') ? 'bg-ci-red' : '' }}">
       MMA
     </a>
     <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">

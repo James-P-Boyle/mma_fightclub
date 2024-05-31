@@ -6,14 +6,14 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold lg:text-6xl">BRAZILLIAN JIU-JITSU <span class="text-ci-red">(BJJ)</span></h1>
-  <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
-  <p class="mb-2 text-lg dynamicText md:text-xl">Brazilian Jiu-Jitsu <span class="text-ci-red">(BJJ)</span> is a martial art and combat sport that focuses on ground fighting and submission holds.</p>
-  <p class="mb-2 text-lg dynamicText md:text-xl">It emphasizes the use of technique and leverage to control and submit opponents, making it possible for a smaller individual to defeat a larger, stronger opponent.</p>
-  <p class="mb-2 text-lg dynamicText md:text-xl"> BJJ practitioners use joint locks and chokeholds to submit their adversaries.</p>
+  <h1 class="text-4xl font-bold lg:text-6xl md:-mr-20">BRAZILLIAN JIU-JITSU <span class="text-ci-red">(BJJ)</span></h1>
+  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <p class="text-xl dynamicText md:text-2xl">Brazilian Jiu-Jitsu <span class="text-ci-red">(BJJ)</span> is a martial art and combat sport that focuses on ground fighting and submission holds.</p>
+  <p class="text-xl dynamicText md:text-2xl">It emphasizes the use of technique and leverage to control and submit opponents, making it possible for a smaller individual to defeat a larger, stronger opponent.</p>
+  <p class="text-xl dynamicText md:text-2xl"> BJJ practitioners use joint locks and chokeholds to submit their adversaries.</p>
 </x-hero-header>
 
-<section class="container grid gap-4 px-4 py-16 mx-auto sm:grid-cols-2">
+<section class="container grid gap-4 px-4 mx-auto sm:grid-cols-2">
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
@@ -23,8 +23,7 @@
 </section>
 
 
-
-<section class="p-4 py-8 text-white bg-black bg-opacity-90 bg-cage">
+<section class="p-4 text-white bg-black bg-opacity-90 bg-cage">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
     <div class="flex flex-col gap-4">
@@ -62,10 +61,5 @@
   
 
 </section>
-
-{{-- <section class="min-h-[80vh] py-16 gap-8 px-4 md:px-8 bg-black bg-opacity-90">
-
-
-</section> --}}
 
 @endsection
