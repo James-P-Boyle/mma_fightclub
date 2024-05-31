@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Mixed Martial Arts - MMA Fight ClubBad Hersfeld')
+@section('title', 'Mixed Martial Arts - MMA Fight Club Bad Hersfeld')
 @section('meta-description', 'Learn about Mixed Martial Arts (MMA) at our MMA Fight Club. Explore our classes, benefits, and detailed curriculum.')
 
 @section('content')

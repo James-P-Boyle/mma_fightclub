@@ -12,10 +12,19 @@
   </div>
   <div class="flex flex-row items-center justify-center gap-4 py-4 border-t">
     <a href="{{ route('jitsu') }}" class="transition duration-100 text-lg md:text-xl {{ Route::is('jitsu') ? 'underline text-ci-red' : '' }}">
-      JIU-JITSU
+      BJJ
     </a>
     <a href="{{ route('mma') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 text-lg md:text-xl {{ Route::is('mma') ? 'underline text-ci-red' : '' }}">
       MMA
+    </a>
+    <a href="{{ route('muay-thai') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 text-lg md:text-xl {{ Route::is('muay-thai') ? 'underline text-ci-red' : '' }}">
+      MUAY-THAI
+    </a>
+    <a href="{{ route('grappling') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 text-lg md:text-xl {{ Route::is('grappling') ? 'underline text-ci-red' : '' }}">
+      GRAPPLING
+    </a>
+    <a href="{{ route('kids-jitsu') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
+      KIDS-BJJ
     </a>
   </div>
 

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Brazilian Jiu-Jitsu - MMA Fight ClubBad Hersfeld')
+@section('title', 'Brazilian Jiu-Jitsu - MMA Fight Club Bad Hersfeld')
 @section('meta-description', 'Learn about Brazilian Jiu-Jitsu (BJJ) at our MMA Fight Club. Explore our classes, benefits, and detailed curriculum.')
 
 @section('content')
@@ -50,7 +50,7 @@
       </div>
       <a 
         href="{{route('contact')}}" 
-        title="Book your first jiu jitsu class with us"
+        title="Book your first Jiu Jitsu class with us"
         class="text-xl font-bold text-ci-red hover:text-ci-red"
       >
         Book your first class

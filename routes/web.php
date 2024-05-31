@@ -31,7 +31,7 @@ Route::get('/brazilian-jiu-jitsu', function() {
 })->name('jitsu');
 
 Route::get('/muay-thai', function() {
-    return view('pages.jitsu');
+    return view('pages.muay-thai');
 })->name('muay-thai');
 
 Route::get('/grappling', function() {

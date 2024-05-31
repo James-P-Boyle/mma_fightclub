@@ -17,8 +17,14 @@
     <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">
       JIU-JITSU
     </a>
-    <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
-      Contact
+    <a href="{{route('muay-thai')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('muay-thai') ? 'bg-ci-red' : '' }}">
+      MUAY-THAI
+    </a>
+    <a href="{{route('grappling')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('grappling') ? 'bg-ci-red' : '' }}">
+      GRAPPLING
+    </a>
+    <a href="{{route('kids-jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-jitsu') ? 'bg-ci-red' : '' }}">
+      KIDS BJJ
     </a>
   </div>
   <span class="block text-white">© 2024 - MMA FIGHTCLUBBad Hersfeld</span>
