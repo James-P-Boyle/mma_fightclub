@@ -34,7 +34,7 @@
         <p class="text-lg md:text-xl">BJJ also promotes camaraderie and respect among practitioners, creating a supportive community.</p>
       </div>
       <a 
-        href="{{route('time')}}" 
+        href="{{route('time-table')}}" 
         title="View our Jiu-Jitsu class timetable"
         class="text-xl font-bold text-ci-red hover:text-ci-red"
       >

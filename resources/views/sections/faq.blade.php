@@ -28,7 +28,7 @@
       <details>
         <summary class="py-2 outline-none cursor-pointer focus:underline">What is your class schedule?</summary>
         <div class="px-4 pb-4">
-          <span>Our class schedule varies throughout the week. Please check our <a href="{{route('time')}}" title="View our Jiu-Jitsu class timetable" class="text-ci-red hover:text-ci-red">timetable</a> on the website or contact us directly for the most up-to-date class times.</span>
+          <span>Our class schedule varies throughout the week. Please check our <a href="{{route('time-table')}}" title="View our Jiu-Jitsu class timetable" class="text-ci-red hover:text-ci-red">timetable</a> on the website or contact us directly for the most up-to-date class times.</span>
         </div>
       </details>
       <details>

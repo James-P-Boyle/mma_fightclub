@@ -26,8 +26,11 @@
     <a href="{{route('kids-jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-jitsu') ? 'bg-ci-red' : '' }}">
       KIDS BJJ
     </a>
+    <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl border border-ci-red hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
+      CONTACT
+    </a>
   </div>
-  <span class="block text-white">© 2024 - MMA FIGHTCLUBBad Hersfeld</span>
-
+  
+  <span class="block text-white">© 2024 - MMA FIGHTCLUB Bad Hersfeld</span>
 
 </nav>

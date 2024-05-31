@@ -35,7 +35,7 @@
         <p class="md:text-xl">Whether you're training for competition or personal development, MMA offers a challenging and rewarding experience.</p>
       </div>
       <a 
-        href="{{route('time')}}" 
+        href="{{route('time-table')}}" 
         title="View our MMA class timetable"
         class="text-xl font-bold text-ci-red hover:text-ci-red"
       >

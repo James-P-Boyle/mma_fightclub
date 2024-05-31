@@ -13,21 +13,20 @@ class EmailController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email',
-            'location' => 'required',
-            'tires_needed' => 'required',
             'message' => 'nullable'
         ]);
 
         $toEmail = "jamesboyle9292@gmail.com"; 
-        $subject = $request->tires_needed  . " " . " tires needed from"  . " " .  $request->location;
+        $subject = "Email from"  . " " .  $request->email;
 
-        $message = $request->name . "," . " " . $request->email . "\n\nMessage: " . $request->message; // Combine the form data into a message
+        $message = $request->name . "," . "\n\nMessage: " . $request->message;
 
         try {
             Mail::to($toEmail)->send(new TestEmail($subject, $message));
-    
+            dd('error');
             session()->flash('success', 'Email sent successfully!');
         } catch (\Exception $e) {
+            dd($e);
             session()->flash('error', 'Failed to send email. Please try again.');
         }
     

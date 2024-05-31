@@ -48,6 +48,6 @@ Route::get('/beispiel-seite', function() {
 
 Route::get('/oeffnungszeiten', function() {
     return view('pages.time-table');
-})->name('time');
+})->name('time-table');
 
 Route::post('send-mail', [EmailController::class, 'sendEmail'])->name('send-mail');
