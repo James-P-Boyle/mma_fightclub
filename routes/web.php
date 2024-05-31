@@ -30,6 +30,18 @@ Route::get('/brazilian-jiu-jitsu', function() {
     return view('pages.jitsu');
 })->name('jitsu');
 
+Route::get('/muay-thai', function() {
+    return view('pages.jitsu');
+})->name('muay-thai');
+
+Route::get('/grappling', function() {
+    return view('pages.grappling');
+})->name('grappling');
+
+Route::get('/bjj-for-kids', function() {
+    return view('pages.kids-jitsu');
+})->name('kids-jitsu');
+
 Route::get('/beispiel-seite', function() {
     return view('pages.about');
 })->name('about');
