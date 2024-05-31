@@ -1,33 +1,36 @@
 <footer class="bg-gray-100">
   <div class="flex flex-row items-center justify-center gap-4 py-4 border-t md:gap-8">
     <a href="{{ route('home') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('home') ? 'underline text-ci-red' : '' }}">
-      HOME
+      Home
     </a>
     <a href="{{ route('about') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('about') ? 'underline text-ci-red' : '' }}">
-      ABOUT
+      About
     </a>
     <a href="{{ route('time-table') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('time-table') ? 'underline text-ci-red' : '' }}">
-      ÖFFNUNGSZEITEN
+      Öffnungszeiten
     </a>
     <a href="{{ route('contact') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('contact') ? 'underline text-ci-red' : '' }}">
-      CONTACT
+      Contact
     </a>
   </div>
   <div class="flex flex-row items-center justify-center gap-4 py-4 border-t md:gap-10">
-    <a href="{{ route('jitsu') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('jitsu') ? 'underline text-ci-red' : '' }}">
+    <a href="{{ route('jitsu') }}" title="Learn More About Our BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('jitsu') ? 'underline text-ci-red' : '' }}">
       BJJ
     </a>
     <a href="{{ route('mma') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('mma') ? 'underline text-ci-red' : '' }}">
       MMA
     </a>
-    <a href="{{ route('muay-thai') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('muay-thai') ? 'underline text-ci-red' : '' }}">
-      MUAY-THAI
+    <a href="{{ route('muay-thai') }}" title="Learn More About Our Muay-Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('muay-thai') ? 'underline text-ci-red' : '' }}">
+      Muay-Thai
     </a>
-    <a href="{{ route('grappling') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('grappling') ? 'underline text-ci-red' : '' }}">
-      GRAPPLING
+    <a href="{{ route('grappling') }}" title="Learn More About Our Grappling Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('grappling') ? 'underline text-ci-red' : '' }}">
+      Grappling
     </a>
-    <a href="{{ route('kids-jitsu') }}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
-      KIDS-BJJ
+    <a href="{{ route('kids-jitsu') }}" title="Learn More About Our Kids BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
+      Kids-BJJ
+    </a>
+    <a href="{{ route('kids-muay-thai') }}" title="Learn More About Our Kids Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
+      Kids-Muay-Thai
     </a>
   </div>
 

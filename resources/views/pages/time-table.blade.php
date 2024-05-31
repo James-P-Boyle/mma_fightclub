@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
-@section('title', 'Grappling - MMA Fight Club Bad Hersfeld')
-@section('meta-description', 'Learn about Grappling at our MMA Fight Club. Explore our classes, benefits, and detailed curriculum.')
+@section('title', 'Öffnungszeiten - MMA Fight Club Bad Hersfeld')
+@section('meta-description', 'View our MMA Fight Club Time table.')
 
 @section('content')
 
@@ -13,53 +13,194 @@
   <p class="text-xl dynamicText md:text-2xl">Grappling focuses on throws, takedowns, joint locks, and pins to dominate and neutralize opponents</p>
 </x-hero-header>
 
-{{-- <section class="container grid gap-4 px-4 mx-auto sm:grid-cols-2">
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-  <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
-</section> --}}
 
-{{-- <section class="p-4 text-white bg-black bg-opacity-90 bg-cage">
-  
-  <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
-    <div class="flex flex-col gap-4">
-      <div class="space-y-1">
-        <h3 class="mb-4 text-2xl font-bold lg:text-3xl">Benefits of Grappling Training</h3>
-        <p class="md:text-xl">Training in grappling improves core strength, balance, and flexibility. It also enhances situational awareness and tactical thinking.</p>
-        <p class="md:text-xl">Grappling is an excellent way to develop functional strength and endurance while learning effective self-defense techniques.</p>
-        <p class="md:text-xl">The physical and mental challenges of grappling foster personal growth and discipline.</p>
-      </div>
-      <a 
-        href="{{route('grappling')}}" 
-        title="View our Grappling classes timetable"
-        class="text-xl font-bold text-ci-red hover:text-ci-red"
-      >
-        View Timetable
-      </a>
-    </div>
+  <div class="px-2 pb-16 mx-auto">
 
-    <div class="flex flex-col gap-4">
-      <div class="space-y-1">
-        <h4 class="mb-4 text-2xl font-bold lg:text-3xl">Classes and Curriculum</h4>
-        <p class="md:text-xl">Our grappling classes cover techniques from various disciplines to provide a comprehensive grappling education.</p>
-        <p class="md:text-xl">We offer classes for all skill levels, focusing on drills, live sparring, and technique refinement. </p>
-        <p class="md:text-xl">Whether you're a beginner or an experienced grappler, our program is designed to help you improve and achieve your goals.</p>
+      <div class="hidden bg-white md:block">
+        <table class="min-w-full">
+          <thead class="text-white bg-black/90">
+            <tr>
+              <th class="px-4 py-2 text-left w-1/7">Monday</th>
+              <th class="px-4 py-2 text-left w-1/7">Tuesday</th>
+              <th class="px-4 py-2 text-left w-1/7">Wednesday</th>
+              <th class="px-4 py-2 text-left w-1/7">Thursday</th>
+              <th class="px-4 py-2 text-left w-1/7">Friday</th>
+              <th class="px-4 py-2 text-left w-1/7">Saturday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">17:30 - 19.00</p>
+                  <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                    BJJ Basic
+                  </a>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">19.00 - 20.30</p>
+                  <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                    BJJ Basic
+                  </a>
+                </div>
+              </td>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">17.30 - 18.30</p>
+                  <a class="hover:text-ci-red" href="{{route('kids-jitsu')}}">
+                    KIDS BJJ
+                  </a>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">18.30 - 20.00</p>
+                  <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                    BJJ Technik
+                  </a>
+                </div>
+              </td>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">17.30 - 19.00</p>
+                  <a class="hover:text-ci-red" href="{{route('grappling')}}">
+                    Submission Wrestling
+                  </a>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">19.00 - 20.30 </p>
+                  <a class="hover:text-ci-red" href="{{route('muay-thai')}}">
+                    Muay Thai
+                  </a>
+                </div>
+              </td>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">17.30 - 18.30</p>
+                  <a class="hover:text-ci-red" href="{{route('kids-muay-thai')}}">
+                    Kids Muay Thai
+                  </a>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">18.30 - 20.00</p>
+                  <p>Class Name???</p>
+                </div>
+              </td>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">17.30 - 19.00</p>
+                  <a class="hover:text-ci-red" href="{{route('grappling')}}">
+                    Submission Wrestling
+                  </a>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">19.00 - 21.00</p>
+                  <a class="hover:text-ci-red" href="{{route('mma')}}">
+                    MMA
+                  </a>
+                </div>
+              </td>
+              <td class="px-4 py-2 border">
+                <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">10.00 - 12.00</p>
+                  <p>Matt nach Absprache</p>
+                </div>
+                <div class="p-2 bg-gray-100 rounded-lg">
+                  <p class="font-semibold">Time</p>
+                  <p>Class Name</p>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <a 
-        href="{{route('contact')}}" 
-        title="Book your first Grappling class with us"
-        class="text-xl font-bold text-ci-red hover:text-ci-red"
-      >
-        Book your first class
-      </a>
-    </div>
- 
+
+      <div class="md:hidden">
+        <div class="grid grid-cols-1 gap-4">
+          <div>
+            <h3 class="text-lg font-bold">Monday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">17:30 - 19.00</p>
+              <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                BJJ Basic
+              </a>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">19.00 - 20.30</p>
+                <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                  BJJ Basic
+                </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold">Tuesday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">17.30 - 18.30</p>
+              <a class="hover:text-ci-red" href="{{route('kids-jitsu')}}">
+                KIDS BJJ
+              </a>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">18.30 - 20.00</p>
+              <a class="hover:text-ci-red" href="{{route('jitsu')}}">
+                BJJ Technik
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold">Wednesday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">17.30 - 19.00</p>
+              <a class="hover:text-ci-red" href="{{route('grappling')}}">
+                Submission Wrestling
+              </a>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">19.00 - 20.30 </p>
+              <a class="hover:text-ci-red" href="{{route('muay-thai')}}">
+                Muay Thai
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold">Thursday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">Time</p>
+              <p>Class Name???</p>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">17.30 - 19.00</p>
+              <a class="hover:text-ci-red" href="{{route('grappling')}}">
+                Submission Wrestling
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold">Friday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">17.30 - 19.00</p>
+              <a class="hover:text-ci-red" href="{{route('grappling')}}">
+                Submission Wrestling
+              </a>
+            </div>
+            <div class="p-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">19.00 - 21.00</p>
+              <a class="hover:text-ci-red" href="{{route('mma')}}">
+                MMA
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-lg font-bold">Saturday</h3>
+            <div class="p-2 mb-2 bg-gray-100 rounded-lg">
+              <p class="font-semibold">10.00 - 12.00</p>
+              <p>Matt nach Absprache</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </div>
   
 
-</section> --}}
 
 @endsection

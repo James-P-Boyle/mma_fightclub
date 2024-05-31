@@ -42,6 +42,10 @@ Route::get('/bjj-for-kids', function() {
     return view('pages.kids-jitsu');
 })->name('kids-jitsu');
 
+Route::get('/muay-thai-kids', function() {
+    return view('pages.kids-muay-thai');
+})->name('kids-muay-thai');
+
 Route::get('/beispiel-seite', function() {
     return view('pages.about');
 })->name('about');
