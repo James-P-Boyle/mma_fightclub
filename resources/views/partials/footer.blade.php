@@ -1,5 +1,5 @@
-<footer class="bg-gray-100">
-  <div class="flex flex-row items-center justify-center gap-4 py-4 border-t md:gap-8">
+<footer class="px-2 bg-gray-100">
+  <div class="flex flex-row flex-wrap items-center justify-center gap-4 py-4 border-t md:gap-8">
     <a href="{{ route('home') }}" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('home') ? 'underline text-ci-red' : '' }}">
       Home
     </a>
@@ -29,7 +29,7 @@
     <a href="{{ route('kids-jitsu') }}" title="Learn More About Our Kids BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
       Kids-BJJ
     </a>
-    <a href="{{ route('kids-muay-thai') }}" title="Learn More About Our Kids Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
+    <a href="{{ route('kids-muay-thai') }}" title="Learn More About Our Kids Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-muay-thai') ? 'underline text-ci-red' : '' }}">
       Kids-Muay-Thai
     </a>
   </div>
