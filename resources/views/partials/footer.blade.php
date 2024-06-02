@@ -13,7 +13,7 @@
       Contact
     </a>
   </div>
-  <div class="flex flex-row items-center justify-center gap-4 py-4 border-t md:gap-10">
+  <div class="flex flex-row flex-wrap items-center justify-center gap-4 py-4 border-t md:gap-10">
     <a href="{{ route('jitsu') }}" title="Learn More About Our BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('jitsu') ? 'underline text-ci-red' : '' }}">
       BJJ
     </a>
