@@ -21,16 +21,16 @@
       MMA
     </a>
     <a href="{{ route('muay-thai') }}" title="Learn More About Our Muay-Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('muay-thai') ? 'underline text-ci-red' : '' }}">
-      Muay-Thai
+      Muay Thai
     </a>
     <a href="{{ route('grappling') }}" title="Learn More About Our Grappling Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('grappling') ? 'underline text-ci-red' : '' }}">
       Grappling
     </a>
     <a href="{{ route('kids-jitsu') }}" title="Learn More About Our Kids BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
-      Kids-BJJ
+      Kids BJJ
     </a>
     <a href="{{ route('kids-muay-thai') }}" title="Learn More About Our Kids Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-muay-thai') ? 'underline text-ci-red' : '' }}">
-      Kids-Muay-Thai
+      Kids Muay Thai
     </a>
   </div>
 

@@ -4,7 +4,7 @@
 
     <a 
         href="{{route('mma')}}" 
-        class="p-4 text-center border border-gray-100 hover:border-gray-200 hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
+        class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld"
     >
         <img src="images/icon_mma.png" alt="" class="w-60 h-60">
@@ -13,7 +13,7 @@
     </a>
     <a 
         href="{{route('jitsu')}}" 
-        class="p-4 text-center border border-gray-100 hover:border-gray-200 hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
+        class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Brazillian Jiu Jitsu Classes and Training at MMA Fight Club Bad Hersfeld"
     >
         <img src="images/icon_jitsu.png" alt="" class="w-60 h-60">
@@ -23,7 +23,7 @@
 
     <a 
         href="{{route('muay-thai')}}" 
-        class="p-4 text-center border border-gray-100 hover:border-gray-200 hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
+        class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld"
     >
         <img src="images/icon_muay_thai.png" alt="" class="w-60 h-60">
@@ -33,7 +33,7 @@
 
     <a 
         href="{{route('grappling')}}" 
-        class="p-4 text-center border border-gray-100 hover:border-gray-200 hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
+        class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Grappling Classes and Training at MMA Fight Club Bad Hersfeld"
     >
         <img src="images/icon_wrestling.png" alt="" class="w-60 h-60">
@@ -43,7 +43,7 @@
 {{-- 
     <a 
         href="{{route('kids-jitsu')}}" 
-        class="p-4 text-center border border-gray-100 hover:border-gray-200 hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
+        class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Kids Jiu Jitsu Classes and Training at MMA Fight Club Bad Hersfeld"
     >
         <span class="inline-block p-2 rounded-lg ">

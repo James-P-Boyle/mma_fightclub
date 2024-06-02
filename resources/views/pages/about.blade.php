@@ -7,6 +7,12 @@
   <div class="w-full h-1 max-w-[200px] bg-ci-red divider mx-auto md:mx-0"></div> 
 </x-hero-header>
 
+<section>
+  OUR GYM (PHOTOS)
+</section>
+<section>
+  OUR TEAM (PHOTOS)
+</section>
 <section class="text-white bg-black bg-opacity-90 bg-cage">
         
   <div class="grid md:grid-cols-[1fr_2fr] md:gap-6 max-w-[1600px] mx-auto">

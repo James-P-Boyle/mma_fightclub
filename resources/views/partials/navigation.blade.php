@@ -5,33 +5,47 @@
   </div>
 
   <div class="justify-end flex-1 block gap-2 space-y-2">
+    
     <a href="{{route('home')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('home') ? 'bg-ci-red' : '' }}">
       HOME
     </a>
     <a href="{{route('about')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('about') ? 'bg-ci-red' : '' }}">
       ABOUT
     </a>
-    <a href="{{route('mma')}}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('mma') ? 'bg-ci-red' : '' }}">
-      MMA
+  
+    <div class="py-6 space-y-2">
+      <a href="{{route('mma')}}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('mma') ? 'bg-ci-red' : '' }}">
+        MMA
+      </a>
+      <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">
+        JIU-JITSU
+      </a>
+      <a href="{{route('muay-thai')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('muay-thai') ? 'bg-ci-red' : '' }}">
+        MUAY-THAI
+      </a>
+      <a href="{{route('grappling')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('grappling') ? 'bg-ci-red' : '' }}">
+        GRAPPLING
+      </a>
+      <a href="{{route('kids-jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-jitsu') ? 'bg-ci-red' : '' }}">
+        KIDS BJJ
+      </a>
+      <a href="{{ route('kids-muay-thai') }}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-muay-thai') ? 'bg-ci-red' : '' }}">
+        KIDS-MUAY-THAI
+      </a>
+    </div>
+
+ 
+    <a href="{{ route('time-table') }}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('time-table') ? 'bg-ci-red' : '' }}">
+      ÖFFNUNFSZEITEN
     </a>
-    <a href="{{route('jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('jitsu') ? 'bg-ci-red' : '' }}">
-      JIU-JITSU
-    </a>
-    <a href="{{route('muay-thai')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('muay-thai') ? 'bg-ci-red' : '' }}">
-      MUAY-THAI
-    </a>
-    <a href="{{route('grappling')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('grappling') ? 'bg-ci-red' : '' }}">
-      GRAPPLING
-    </a>
-    <a href="{{route('kids-jitsu')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-jitsu') ? 'bg-ci-red' : '' }}">
-      KIDS BJJ
-    </a>
-    <a href="{{ route('kids-muay-thai') }}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('kids-muay-thai') ? 'bg-ci-red' : '' }}">
-      KIDS-MUAY-THAI
-    </a>
-    <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl border border-ci-red hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
+
+    <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
       CONTACT
     </a>
+    
+
+
+
   </div>
   
   <span class="block text-white">© 2024 - MMA FIGHTCLUB Bad Hersfeld</span>
