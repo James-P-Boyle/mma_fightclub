@@ -6,7 +6,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold lg:text-6xl">CONTACT</h1>
+  <h1 class="text-4xl font-bold lg:text-5xl">CONTACT</h1>
   <x-divider />
   <p class="text-xl dynamicText md:text-2xl">Ready to take the first step? Drop us a message on WhatsApp or use the form below to schedule your first trial session.</p>
   <p class="text-xl dynamicText md:text-2xl"> We're excited to help you start your journey with us!</p>

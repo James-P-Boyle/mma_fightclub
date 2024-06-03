@@ -6,7 +6,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Muay Thai</h1>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-5xl">Muay Thai</h1>
   <x-divider />
   <p class="text-xl dynamicText md:text-2xl"><span class="text-ci-red">Muay Thai</span> is a combat sport from Thailand that uses stand-up striking along with various clinching techniques.</p>
   <p class="text-xl dynamicText md:text-2xl">Known as "the art of eight limbs," Muay Thai incorporates punches, kicks, elbows, and knee strikes.</p>

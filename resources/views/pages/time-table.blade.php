@@ -6,12 +6,12 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Time Table</h1>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-5xl">Time Table</h1>
   <x-divider />
 </x-hero-header>
 
-<div class="grid gap-4 px-2 pb-16 mx-auto md:grid-cols-6">
-  <div class="p-2 border rounded-lg">
+<div class="grid gap-4 px-2 py-16 mx-auto md:grid-cols-6">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Monday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">17:30 - 19.00</p>
@@ -26,7 +26,7 @@
         </a>
     </div>
   </div>
-  <div class="p-2 border rounded-lg">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Tuesday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">17.30 - 18.30</p>
@@ -41,7 +41,7 @@
       </a>
     </div>
   </div>
-  <div class="p-2 border rounded-lg">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Wednesday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">17.30 - 19.00</p>
@@ -56,7 +56,7 @@
       </a>
     </div>
   </div>
-  <div class="p-2 border rounded-lg">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Thursday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">17.30 - 18.30</p>
@@ -72,7 +72,7 @@
     </div>
   </div>
 
-  <div class="p-2 border rounded-lg">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Friday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">17.30 - 19.00</p>
@@ -87,7 +87,7 @@
       </a>
     </div>
   </div>
-  <div class="p-2 border rounded-lg">
+  <div class="p-2">
     <h3 class="text-xl font-bold">Saturday</h3>
     <div class="p-2 mb-2 bg-gray-100 rounded-lg">
       <p class="font-semibold md:text-base">10.00 - 12.00</p>

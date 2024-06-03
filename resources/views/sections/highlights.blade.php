@@ -1,4 +1,4 @@
-<section class="flex flex-col justify-center gap-8 px-4">
+<section class="flex flex-col justify-center gap-8 px-4 pt-12 pb-20">
 
   <div class="flex flex-col gap-8 lg:flex-row justify-center items-center lg:max-w-[12000px] mx-auto">
 
@@ -7,7 +7,7 @@
         class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld"
     >
-        <img src="images/icon_mma.png" alt="" class="w-60 h-60">
+        <img src="images/icon_mma.png" alt="" class="w-52 h-52">
     
         <p class="text-lg font-bold md:text-xl group-hover:text-ci-red">Mixed Martial Arts</p>
     </a>
@@ -16,7 +16,7 @@
         class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Brazillian Jiu Jitsu Classes and Training at MMA Fight Club Bad Hersfeld"
     >
-        <img src="images/icon_jitsu.png" alt="" class="w-60 h-60">
+        <img src="images/icon_jitsu.png" alt="" class="w-52 h-52">
     
         <p class="text-lg font-bold md:text-xl group-hover:text-ci-red">Brazillian Jiu Jitsu</p>
     </a>
@@ -26,7 +26,7 @@
         class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Muay Thai Classes and Training at MMA Fight Club Bad Hersfeld"
     >
-        <img src="images/icon_muay_thai.png" alt="" class="w-60 h-60">
+        <img src="images/icon_muay_thai.png" alt="" class="w-52 h-52">
     
         <p class="text-lg font-bold md:text-xl group-hover:text-ci-red">Muay Thai</p>
     </a>
@@ -36,7 +36,7 @@
         class="p-4 text-center hover:shadow-lg rounded-xl hover:scale-105 hover:cursor-pointer transtion-all group" 
         title="Learn More About Our Grappling Classes and Training at MMA Fight Club Bad Hersfeld"
     >
-        <img src="images/icon_wrestling.png" alt="" class="w-60 h-60">
+        <img src="images/icon_wrestling.png" alt="" class="w-52 h-52">
     
         <p class="text-lg font-bold md:text-xl group-hover:text-ci-red">Grappling</p>
     </a>

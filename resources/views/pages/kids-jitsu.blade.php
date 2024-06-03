@@ -6,7 +6,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">BJJ For Kids</h1>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-5xl">BJJ For Kids</h1>
   <x-divider />
   <p class="text-xl dynamicText md:text-2xl"><span class="text-ci-red">BJJ for kids</span> focuses on ground fighting and submission techniques.</p>
   <p class="text-xl dynamicText md:text-2xl">It teaches children how to control and submit opponents through the use of leverage and technique.</p>

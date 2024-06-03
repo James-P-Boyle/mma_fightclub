@@ -6,7 +6,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Grappling</h1>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-5xl">Grappling</h1>
   <x-divider />
   <p class="text-xl dynamicText md:text-2xl"><span class="text-ci-red">Grappling</span> is a broad term that encompasses various techniques used to control and submit an opponent through clinch and ground fighting.</p>
   <p class="text-xl dynamicText md:text-2xl">It includes techniques from wrestling, Brazilian Jiu-Jitsu, judo, and sambo.</p>

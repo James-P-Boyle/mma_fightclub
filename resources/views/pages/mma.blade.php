@@ -6,7 +6,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">MIXED MARTIAL ARTS <span class="text-ci-red">(MMA)</span></h1>
+  <h1 class="text-4xl font-bold md:-mr-12 lg:text-5xl">MIXED MARTIAL ARTS <span class="text-ci-red">(MMA)</span></h1>
   <x-divider />
   <p class="text-xl dynamicText md:text-2xl">Mixed Martial Arts <span class="text-ci-red">(MMA)</span> is a full-contact combat sport that allows the use of both striking and grappling techniques, both standing and on the ground.</p>
   <p class="text-xl dynamicText md:text-2xl">It combines elements from various martial arts disciplines, including boxing, wrestling, Brazilian Jiu-Jitsu, Muay Thai, and more.</p>

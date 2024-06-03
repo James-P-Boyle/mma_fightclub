@@ -14,6 +14,6 @@
             {{$slot}}
         </div>
 
-        <div class="z-10 w-full bg-center bg-no-repeat bg-contain min-h-64" style="background-image: url('./images/logo.jpeg')"></div>
+        <a href="{{route('home')}}" title="Go to home page" class="z-10 w-full bg-center bg-no-repeat bg-contain min-h-64" style="background-image: url('./images/logo.jpeg')"></a>
     </div>
 </header>

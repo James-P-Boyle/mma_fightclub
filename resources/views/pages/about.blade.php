@@ -3,7 +3,7 @@
 @section('content')
 
 <x-hero-header>
-  <h1 class="text-4xl font-bold lg:text-6xl">About Me</h1>
+  <h1 class="text-4xl font-bold lg:text-5xl">About Me</h1>
   <x-divider />
 </x-hero-header>
 
