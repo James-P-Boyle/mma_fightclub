@@ -36,7 +36,7 @@
 
  
     <a href="{{ route('time-table') }}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('time-table') ? 'bg-ci-red' : '' }}">
-      ÖFFNUNFSZEITEN
+      ÖFFNUNGSZEITEN
     </a>
 
     <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
