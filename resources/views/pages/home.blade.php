@@ -10,7 +10,7 @@
     <p class="text-xl lg:text-3xl">FIGHT FOR IT</p>
     <div>
       <p class="text-xl md:text-2xl">Step into the cage and embrace the warrior within</p>
-      <a class="text-xl underline md:text-2xl text-ci-red" title="Contact us and find out more about our gym" href="{{route('contact')}}">Join our MMA fight club</a>
+      <a class="text-xl underline md:text-2xl text-ci-red" title="Contact us and find out more about our gym" href="{{route('contact')}}">Join our MMA FIGHT CLUB</a>
     </div>
   </x-hero-header>
 
