@@ -26,6 +26,9 @@
     <a href="{{ route('grappling') }}" title="Learn More About Our Grappling Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('grappling') ? 'underline text-ci-red' : '' }}">
       Grappling
     </a>
+
+  </div>
+  <div class="flex flex-row flex-wrap items-center justify-center gap-4 md:gap-10">
     <a href="{{ route('kids-jitsu') }}" title="Learn More About Our Kids BJJ Classes and Training at MMA Fight Club Bad Hersfeld" class="transition duration-100 hover:text-ci-red text-lg md:text-xl {{ Route::is('kids-jitsu') ? 'underline text-ci-red' : '' }}">
       Kids BJJ
     </a>
