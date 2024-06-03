@@ -1,15 +1,15 @@
 {
   "public/images/cage.svg": {
-    "file": "cage-BCwV8nwI.svg",
+    "file": "assets/cage-BCwV8nwI.svg",
     "src": "public/images/cage.svg"
   },
   "resources/css/app.css": {
-    "file": "app-mEREpNs9.css",
+    "file": "assets/app-HfzOwFEb.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "app-DXwiDz3s.js",
+    "file": "assets/app-DXwiDz3s.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

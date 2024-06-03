@@ -4,7 +4,7 @@ import laravel from 'laravel-vite-plugin';
 export default defineConfig({
     build: {
         outDir: 'public/build',
-        assetsDir: '',
+        // assetsDir: 'public/images',
         sourcemap: false,
         minify: true,
         // rollupOptions: {
@@ -18,7 +18,7 @@ export default defineConfig({
         }),
     ],
     server: {
-        https: false,
+        https: true,
     },
     base: process.env.APP_URL || '/',
 });
