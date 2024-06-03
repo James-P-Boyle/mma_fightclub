@@ -7,7 +7,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Time Table</h1>
-  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <x-divider />
 </x-hero-header>
 
 <div class="grid gap-4 px-2 pb-16 mx-auto md:grid-cols-6">

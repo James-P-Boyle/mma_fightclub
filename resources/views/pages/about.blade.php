@@ -4,7 +4,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold lg:text-6xl">About Me</h1>
-  <div class="w-full h-1 max-w-[200px] bg-ci-red divider mx-auto md:mx-0"></div> 
+  <x-divider />
 </x-hero-header>
 
 <section>
@@ -25,7 +25,7 @@
       <h4 class="text-2xl font-bold">
         Hello, I'm Markus Jamaal Leis. 
       </h4>
-      <div class="w-20 h-1 bg-ci-red divider"></div>
+      <x-divider />
 
       <p class="text-xl md:text-xl">
         Born on April 18, 1977, I've dedicated my life to mastering and teaching martial arts. With extensive experience in Wing Tsung, Tai Chi, Brazilian Jiu-Jitsu, Kickboxing, K1, Muay Thai, and MMA, I've trained with some of the best minds in the field, continuously honing my skills and expanding my expertise.

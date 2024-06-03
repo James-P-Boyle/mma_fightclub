@@ -7,7 +7,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Grappling</h1>
-  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <x-divider />
   <p class="text-xl dynamicText md:text-2xl"><span class="text-ci-red">Grappling</span> is a broad term that encompasses various techniques used to control and submit an opponent through clinch and ground fighting.</p>
   <p class="text-xl dynamicText md:text-2xl">It includes techniques from wrestling, Brazilian Jiu-Jitsu, judo, and sambo.</p>
   <p class="text-xl dynamicText md:text-2xl">Grappling focuses on throws, takedowns, joint locks, and pins to dominate and neutralize opponents</p>

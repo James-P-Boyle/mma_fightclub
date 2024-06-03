@@ -7,7 +7,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold md:-mr-12 lg:text-6xl">Muay Thai For Kids</h1>
-  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <x-divider />
   <p class="text-xl dynamicText md:text-2xl"><span class="text-ci-red">Kids Muay Thai</span> focuses on the traditional striking techniques of Muay Thai, also known as "The Art of Eight Limbs."</p>
   <p class="text-xl dynamicText md:text-2xl">This discipline teaches punches, kicks, elbows, and knee strikes. Through fun and engaging classes, children learn the fundamentals of Muay Thai in a safe and supportive environment.</p>
 </x-hero-header>

@@ -5,7 +5,7 @@
   <x-hero-header>
     <h1 class="text-4xl font-bold lg:text-6xl">MMA FIGHTCLUB</h1>
     <h2 class="-mt-4 text-2xl font-bold lg:text-5xl">BAD HERSFELD</h2>
-    <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+    <x-divider />
     <h3 class="text-2xl font-bold lg:text-4xl">Your health is not just an asset, it's your greatest investment</h3>
     <p class="text-2xl lg:text-4xl">FIGHT FOR IT</p>
     <div>

@@ -7,7 +7,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold lg:text-6xl">CONTACT</h1>
-  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <x-divider />
   <p class="text-xl dynamicText md:text-2xl">Ready to take the first step? Drop us a message on WhatsApp or use the form below to schedule your first trial session.</p>
   <p class="text-xl dynamicText md:text-2xl"> We're excited to help you start your journey with us!</p>
 </x-hero-header>

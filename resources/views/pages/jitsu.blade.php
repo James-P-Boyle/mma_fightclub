@@ -7,7 +7,7 @@
 
 <x-hero-header>
   <h1 class="text-4xl font-bold lg:text-6xl md:-mr-20">BRAZILLIAN JIU-JITSU <span class="text-ci-red">(BJJ)</span></h1>
-  <div class="w-full max-w-[150px] h-1 mx-auto bg-ci-red divider md:mx-0"></div>
+  <x-divider />
   <p class="text-xl dynamicText md:text-2xl">Brazilian Jiu-Jitsu <span class="text-ci-red">(BJJ)</span> is a martial art and combat sport that focuses on ground fighting and submission holds.</p>
   <p class="text-xl dynamicText md:text-2xl">It emphasizes the use of technique and leverage to control and submit opponents, making it possible for a smaller individual to defeat a larger, stronger opponent.</p>
   <p class="text-xl dynamicText md:text-2xl"> BJJ practitioners use joint locks and chokeholds to submit their adversaries.</p>

@@ -3,7 +3,7 @@
       <h4 class="text-2xl font-bold">
         Frequently Asked Questions
       </h4>
-      <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
+      <x-divider />
     </div>
   
     <div class="flex flex-col divide-y divide-gray-700">

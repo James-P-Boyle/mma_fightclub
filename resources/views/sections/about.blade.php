@@ -9,7 +9,7 @@
     <div class="flex flex-col items-center justify-center gap-6 px-4 py-16 md:px-8">
       <div class="w-full">
           <h4 class="text-2xl font-bold">About</h4>
-          <div class="w-20 h-2 my-4 bg-ci-red divider"></div>
+          <x-divider />
       </div>
     
       <p class="text-xl">
