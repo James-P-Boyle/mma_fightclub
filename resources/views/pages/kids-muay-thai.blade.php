@@ -12,7 +12,7 @@
   <p class="text-xl dynamicText md:text-2xl">This discipline teaches punches, kicks, elbows, and knee strikes. Through fun and engaging classes, children learn the fundamentals of Muay Thai in a safe and supportive environment.</p>
 </x-hero-header>
 
-<section class="container grid gap-4 px-4 mx-auto sm:grid-cols-2">
+<section class="container grid gap-4 px-4 py-12 mx-auto sm:grid-cols-2">
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
@@ -21,7 +21,7 @@
   <div class="w-full h-64 bg-center bg-no-repeat bg-cover sm:h-80" style="background-image: url('./images/jitsu_1.jpeg')"></div>
 </section>
 
-<section class="p-4 text-white bg-black bg-opacity-90 bg-cage">
+<section class="p-4 py-12 text-white bg-black bg-opacity-90 bg-cage">
   
   <div class="mx-auto max-w-[1600px] md:gap-16 md:grid-cols-2 grid w-full gap-8 ">
     <div class="flex flex-col gap-4">

@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .divider {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   height: 3px;
   margin: 0 auto;
   background-color: #F81A00;

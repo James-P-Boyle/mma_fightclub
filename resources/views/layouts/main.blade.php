@@ -21,7 +21,7 @@
 
       @include('partials.navigation')
 
-      <main class="space-y-10 md:space-y-20">
+      <main class="">
         @yield('content')
       </main>
  

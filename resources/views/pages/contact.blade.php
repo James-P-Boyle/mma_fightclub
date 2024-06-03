@@ -12,7 +12,7 @@
   <p class="text-xl dynamicText md:text-2xl"> We're excited to help you start your journey with us!</p>
 </x-hero-header>
 
-<section class="grid px-2 md:grid-cols-[1fr_2fr] md:max-w-[1200px] md:mx-auto md:px-8">
+<section class="grid px-2 md:grid-cols-[1fr_2fr] md:max-w-[1200px] md:mx-auto md:px-8 py-12">
 
   <div class="p-4 rounded-t-lg md:text-lg bg-gray-100/70">
     <h2 class="mb-2 text-xl font-bold">Markus Leis</h2>
@@ -58,7 +58,7 @@
 
 </section>
 
-<section class="md:max-w-[1200px] md:mx-auto px-2 md:px-8">
+<section class="md:max-w-[1200px] md:mx-auto px-2 md:px-8 pb-12">
   <iframe width="100%" height="400px" src="https://maps.google.de/maps?hl=de&q=MMA+FIGHTCLUB%20%20Badestube+3%20+Bad+Hersfeld&t=ROADMAP&z=10&ie=utf8&iwloc=b&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 </section>
 
