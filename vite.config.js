@@ -7,9 +7,9 @@ export default defineConfig({
         assetsDir: '',
         sourcemap: false,
         minify: true,
-        rollupOptions: {
-            input: '/index.html'
-        }
+        // rollupOptions: {
+        //     input: '/index.html'
+        // }
     },
     plugins: [
         laravel({
