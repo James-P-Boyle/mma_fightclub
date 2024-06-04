@@ -12,6 +12,11 @@ export default defineConfig({
             input: {
                 app: 'resources/js/app.js',
                 css: 'resources/css/app.css',
+            },
+            output: {
+                entryFileNames: '[name].js',
+                chunkFileNames: '[name].js',
+                assetFileNames: '[name].[ext]'
             }
         }
     },
