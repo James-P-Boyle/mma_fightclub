@@ -3,9 +3,9 @@ import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
     build: {
-        outDir: 'public/build',
+        // outDir: 'public/build',
         // assetsDir: 'public/images',
-        sourcemap: false,
+        // sourcemap: false,
         minify: true,
         // rollupOptions: {
         //     input: '/index.html'
