@@ -7,7 +7,7 @@ export default defineConfig({
         // assetsDir: 'public/images',
         // sourcemap: false,
         minify: true,
-        manifest: true,
+        // manifest: true,
         rollupOptions: {
             input: {
                 app: 'resources/js/app.js',
