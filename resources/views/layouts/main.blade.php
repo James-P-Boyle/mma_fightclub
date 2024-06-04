@@ -7,9 +7,7 @@
         <title>@yield('title', 'MMA FIGHTCLUB Bad Hersfeld')</title>
         <meta name="description" content="@yield('meta-description', 'Join our premier MMA gym inBad Hersfeld, Germany. We offer top-notch training in Brazilian Jiu-Jitsu, MMA, and grappling for all skill levels.')">
         <meta name="keywords" content="@yield('meta-keywords', 'Brazilian Jiu-Jitsu, BJJ, MMA, martial arts, grappling, self-defense, combat sports, fighting')">
-        {{-- <link rel="icon" href="{{ asset('images/favicon.jpeg') }}" type="image/x-icon"> --}}
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-        {{-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> --}}
     </head>
     <body class="relative">
   
