@@ -7,9 +7,13 @@ export default defineConfig({
         // assetsDir: 'public/images',
         // sourcemap: false,
         minify: true,
-        // rollupOptions: {
-        //     input: '/index.html'
-        // }
+        manifest: true,
+        rollupOptions: {
+            input: {
+                app: 'resources/js/app.js',
+                css: 'resources/css/app.css',
+            }
+        }
     },
     plugins: [
         laravel({
