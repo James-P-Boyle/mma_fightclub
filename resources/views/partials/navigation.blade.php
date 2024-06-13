@@ -5,14 +5,14 @@
   </div>
 
   <div class="justify-end flex-1 block gap-2 space-y-2">
-    
+
     <a href="{{route('home')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('home') ? 'bg-ci-red' : '' }}">
       HOME
     </a>
     <a href="{{route('about')}}" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('about') ? 'bg-ci-red' : '' }}">
       ABOUT
     </a>
-  
+
     <div class="py-6 space-y-2">
       <a href="{{route('mma')}}" title="Learn More About Our MMA Classes and Training at MMA Fight Club Bad Hersfeld" class="text-white p-1 md:p-2 block text-xl border border-transparent hover:border-white hover:scale-105 transition-all rounded-sm {{ Route::is('mma') ? 'bg-ci-red' : '' }}">
         MMA
@@ -34,7 +34,7 @@
       </a>
     </div>
 
- 
+
     <a href="{{ route('time-table') }}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('time-table') ? 'bg-ci-red' : '' }}">
       ÖFFNUNGSZEITEN
     </a>
@@ -42,12 +42,12 @@
     <a href="{{route('contact')}}" class="text-white p-1 md:p-2 block text-xl hover:scale-105 transition-all rounded-sm {{ Route::is('contact') ? 'bg-ci-red' : '' }}">
       CONTACT
     </a>
-    
+
 
 
 
   </div>
-  
+
   <span class="block text-white">© 2024 - MMA FIGHTCLUB Bad Hersfeld</span>
 
 </nav>

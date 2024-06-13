@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
     build: {
@@ -9,10 +10,6 @@ export default defineConfig({
         minify: true,
         // manifest: true,
         rollupOptions: {
-            input: {
-                app: 'resources/js/app.js',
-                css: 'resources/css/app.css',
-            },
             output: {
                 entryFileNames: '[name].js',
                 chunkFileNames: '[name].js',
@@ -22,12 +19,13 @@ export default defineConfig({
     },
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: ['resources/js/app.tsx'],
             refresh: true,
         }),
+        react(),
     ],
-    server: {
-        https: true,
-    },
+    //     server: {
+    //         https: true,
+    // },
     base: process.env.APP_URL || '/',
 });
